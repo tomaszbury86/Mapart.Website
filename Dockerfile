@@ -11,4 +11,4 @@ EXPOSE 8081
 COPY ./publish .
 
 # Domyœlne polecenie uruchamiaj¹ce aplikacjê
-ENTRYPOINT ["dotnet", "Mapart.WebSite.Server.dll"]
+ENTRYPOINT ["dotnet", "Mapart.Website.Server.dll"]
